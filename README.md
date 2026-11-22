@@ -6,6 +6,7 @@ This project uses Machine Learning to predict whether a telecom customer is like
 
 ## Dataset
 - IBM Telco Customer Churn Dataset
+- https://github.com/IBM/telco-customer-churn-on-icp4d
 - 7,043 customer records
 - 19 input features
 - Binary classification target: Churn (Yes/No)
@@ -69,5 +70,10 @@ It includes preprocessing and prediction in one pipeline and was tested on a new
 - Further threshold optimization
 - Deployment using Flask or FastAPI
 
+## Evaluation Note
+
+The model comparisons and threshold experiments in this project were exploratory. The same test set was used during multiple experiments, so the reported     metrics should not be treated as a final unbiased estimate of generalization performance.
+
+A future improvement would be to use cross-validation or a separate validation set for model selection and threshold tuning, keeping the test set untouched for final evaluation.
 ## Author
 B.Tech Computer Science Engineering Student
